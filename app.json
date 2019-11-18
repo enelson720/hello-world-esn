@@ -1,0 +1,31 @@
+  
+{
+    "name": "Hello World",
+    "description": "A Jupyter Lab enviroment for running anyltics jobs.",
+    "website": "https://hello-world.herokuapp.com",
+    "repository": "https://github.com/heroku/hello-world-esn",
+    "scripts": {
+        "postdeploy": "npm install && jupyter labextension install @jupyterlab/git && jupyter serverextension enable --py jupyterlab_git && jupyter labextension install @jupyterlab/hub-extension"
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "Performance-M"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+    "env": {
+        "APP_NAME": {
+            "required": true
+        }
+    },
+    "environments": {
+    }
+}
