@@ -7,7 +7,7 @@ botocore==1.12.152
 botocore==1.12.152
 certifi==2019.3.9
 cryptography==2.6.1
-dask==1.1.4
+dask==2021.10.0
 fbprophet==0.5
 gcsfs==0.1.2
 ipykernel<5.0.0
