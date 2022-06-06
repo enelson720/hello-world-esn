@@ -24,7 +24,7 @@ jupyterlab-server==1.0.0
 matplotlib==3.0.3
 numpy==1.16.2
 numpydoc==0.8.0
-oauthenticator==0.8.2
+oauthenticator==15.0.0
 pandas==0.24.2
 papermill==1.0.1
 plotly==3.9.0
